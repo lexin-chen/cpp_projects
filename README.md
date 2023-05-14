@@ -12,6 +12,8 @@ Below are some real-world projects that use logical operators. Logical operators
 ### Magic 8 Ball
 A program that simulates a magic 8 ball. The user asks a yes or no question and the program responds with a random answer.
 
+Key Concepts: Lists, Random Numbers, While Loops, Logical Operators
+
 <u><b>Step by Step Outline</b></u>
 1. Import the `ctime` library
 2. Create a list of possible answers.
@@ -28,6 +30,8 @@ A program that simulates a magic 8 ball. The user asks a yes or no question and 
 
 ### Hogwarts Sorting Hat
 A program that sorts the user into a Hogwarts house. The user is asked a series of questions and the program sorts the user into a house based on their answers.
+
+Key Concepts: Lists, Random Numbers, While Loops, Logical Operators
 
 <u><b>Step by Step Outline</b></u>
 1. Import the `ctime` library and the `string` library.
@@ -51,6 +55,8 @@ A program that sorts the user into a Hogwarts house. The user is asked a series 
 
 ### Charades
 A program that plays a game of charades. The user is given a word and they have to act it out. The user will input if they guessed the word correctly or not and the program will give them a new word. The game ends when the user enters `quit` or the deck of words runs out.
+
+Key Concepts: Lists, Random Numbers, While Loops, Logical Operators
 
 <u><b>Step by Step Outline</b></u>
 1. Import the `ctime` library and the `string` library.
