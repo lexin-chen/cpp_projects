@@ -4,6 +4,7 @@
 - [Logical Operators](#logical-operators)
   - [Magic 8 Ball](#magic-8-ball)
   - [Hogwarts Sorting Hat](#hogwarts-sorting-hat)
+  - [Charades](#charades)
 
 ## Logical Operators
 Below are some real-world projects that use logical operators. Logical operators are used to combine two or more conditions. The logical operators are `&&` (and), `||` (or), and `!` (not).
@@ -66,3 +67,4 @@ A program that plays a game of charades. The user is given a word and they have 
     k. If the user enters anything else, print an invalid answer message.
     l. Remove the word from the list of words.
     m. If the list of words is empty, exit the program and print final score.
+[Source Code](charades.cpp)
