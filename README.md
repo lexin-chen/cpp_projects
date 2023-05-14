@@ -17,11 +17,11 @@ A program that simulates a magic 8 ball. The user asks a yes or no question and 
 2. Create a list of possible answers.
 3. Print a welcome message.
 4. Start a while loop that runs until the user enters `quit`.
-    a. Ask the user to enter a question.
-    b. Store the user's question in a variable.
-    c. if the user enters `quit`, exit the program.
-    d. Generate a random number between 0 and the length of the list of possible answers.
-    e. Print the answer at the index of the random number.
+    - Ask the user to enter a question.
+    - Store the user's question in a variable.
+    - if the user enters `quit`, exit the program.
+    - Generate a random number between 0 and the length of the list of possible answers.
+    - Print the answer at the index of the random number.
 5. Loop back to step 4 or exit the program if the user enters `quit`.
 
 [Source Code](magic8_ball.cpp)
@@ -36,7 +36,12 @@ A program that sorts the user into a Hogwarts house. The user is asked a series 
 4. Store the answers to the questions as an integer variable.
 5. Store points for each house as an integer variable.
 6. Print the first question and store the user's answer.
-7. If the user answers 1, add 1 point to Gryffindor. If the user answers 2, add 1 point to Hufflepuff. If the user answers 3, add 1 point to Ravenclaw. If the user answers 4, add 1 point to Slytherin. If the user answers anything else, print an invalid answer message.
+7. Assign points to each house based on the user's answer.
+    - If the user answers 1, add 1 point to Gryffindor. 
+    - If the user answers 2, add 1 point to Hufflepuff. 
+    - If the user answers 3, add 1 point to Ravenclaw. 
+    - If the user answers 4, add 1 point to Slytherin. 
+    - If the user answers anything else, print an invalid answer message.
 8. Repeat steps 6 and 7 for the remaining questions.
 9. Store the houses and their points in a list of integer.
 10. Find the index of the maximum value in the list of points.
@@ -54,17 +59,18 @@ A program that plays a game of charades. The user is given a word and they have 
 4. Store round number as an integer variable.
 5. Store score as an integer variable.
 6. Start a while loop that runs until the user enters `quit` or the deck of words runs out.
-    a. Generate a random number between 0 and the length of the list of words.
-    b. Add 1 to the round number.
-    c. Print the round number and the word at the index of the random number.
-    d. Ask the user if they guessed the word correctly.
-    e. Store the user's answer in a variable.
-    f. If the user enters `quit`, exit the program.
-    g. If the user enters `right`, add 1 to the score.
-    h. If the user enters `wrong`, minus 1 from the score.
-    i. If the user enters `pass`, do nothing.
-    j. If the user enters `quit`, exit the program and print final score.
-    k. If the user enters anything else, print an invalid answer message.
-    l. Remove the word from the list of words.
-    m. If the list of words is empty, exit the program and print final score.
+    - Generate a random number between 0 and the length of the list of words.
+    - Add 1 to the round number.
+    - Print the round number and the word at the index of the random number.
+    - Ask the user if they guessed the word correctly.
+    - Store the user's answer in a variable.
+    - If the user enters `right`, add 1 to the score.
+    - If the user enters `wrong`, minus 1 from the score.
+    - If the user enters `pass`, do nothing.
+    - If the user enters `quit`, exit the program and print final score.
+    - If the user enters anything else, print an invalid answer message.
+    - Remove the word from the list of words.
+    - If the list of words is empty, exit the program and print final score.
+7. Loop back to step 6 or exit the program if the user enters `quit` or the deck of words runs out.
+
 [Source Code](charades.cpp)
