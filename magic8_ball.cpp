@@ -5,7 +5,6 @@
 #include <vector>
 
 int main() {
-
   std::vector<std::string> responses = {"Yes, for sure.", "Probably yes.", "Seems like yes...", 
   "Definitely not!", "Probably not.", "I really doubt it...", 
   "Not sure, check back later!", "I really can't tell."};

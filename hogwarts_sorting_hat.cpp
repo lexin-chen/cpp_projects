@@ -1,3 +1,4 @@
+// Purpose: A program that sorts the user into a Hogwarts house based on a quiz.
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
