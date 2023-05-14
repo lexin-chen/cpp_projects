@@ -43,3 +43,26 @@ A program that sorts the user into a Hogwarts house. The user is asked a series 
 
 [Source Code](hogwarts_sorting_hat.cpp)
 
+### Charades
+A program that plays a game of charades. The user is given a word and they have to act it out. The user will input if they guessed the word correctly or not and the program will give them a new word. The game ends when the user enters `quit` or the deck of words runs out.
+
+<u><b>Step by Step Outline</b></u>
+1. Import the `ctime` library and the `string` library.
+2. Create a list of words.
+3. Print a welcome message.
+4. Store round number as an integer variable.
+5. Store score as an integer variable.
+6. Start a while loop that runs until the user enters `quit` or the deck of words runs out.
+    a. Generate a random number between 0 and the length of the list of words.
+    b. Add 1 to the round number.
+    c. Print the round number and the word at the index of the random number.
+    d. Ask the user if they guessed the word correctly.
+    e. Store the user's answer in a variable.
+    f. If the user enters `quit`, exit the program.
+    g. If the user enters `right`, add 1 to the score.
+    h. If the user enters `wrong`, minus 1 from the score.
+    i. If the user enters `pass`, do nothing.
+    j. If the user enters `quit`, exit the program and print final score.
+    k. If the user enters anything else, print an invalid answer message.
+    l. Remove the word from the list of words.
+    m. If the list of words is empty, exit the program and print final score.
