@@ -1,7 +1,7 @@
 # C++ Beginners Cool Projects
 
 ## Table of Contents
-- Logical Operators
+- [Logical Operators](#logical-operators)
   - [Magic 8 Ball](#magic-8-ball)
   - [Hogwarts Sorting Hat](#hogwarts-sorting-hat)
 
