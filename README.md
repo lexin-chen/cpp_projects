@@ -31,7 +31,7 @@ Key Concepts: Lists, Random Numbers, While Loops, Logical Operators
 ### Hogwarts Sorting Hat
 A program that sorts the user into a Hogwarts house. The user is asked a series of questions and the program sorts the user into a house based on their answers.
 
-Key Concepts: Lists, Random Numbers, While Loops, Logical Operators
+Key Concepts: Lists, Logical Operators
 
 <u><b>Step by Step Outline</b></u>
 1. Import the `ctime` library and the `string` library.
