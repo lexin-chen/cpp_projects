@@ -1,4 +1,4 @@
-# C++ Beginners Cool Projects
+# C++ Cool Beginners Projects
 
 ## Table of Contents
 - [Logical Operators](#logical-operators)
