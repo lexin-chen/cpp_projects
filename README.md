@@ -9,7 +9,6 @@
   - [Magic 8 Ball](#magic-8-ball)
   - [Charades](#charades)
 
-
 ## Logical Operators
 Below are some real-world projects that use logical operators. Logical operators are used to combine two or more conditions. The logical operators are `&&` (and), `||` (or), and `!` (not).
 
