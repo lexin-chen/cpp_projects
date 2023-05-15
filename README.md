@@ -47,6 +47,8 @@ A program that prints the numbers from 1 to 100. For multiples of three, print "
 
 Key Concepts: For Loops, Logical Operators
 
+[Source Code](fizzbuzz.cpp)
+
 ## While Loop
 
 Below are some real-world projects that use while loops. While loops are used to repeat a block of code until a condition is met.
