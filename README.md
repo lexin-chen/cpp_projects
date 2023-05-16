@@ -13,7 +13,7 @@
   - [Car Rental](#car-rental)
 
 ## Getting Started 
-- Make sure you have a C++ compiler installed, (e.g. MinGW for Window). If you are on VSCode, check out the [instructions](https://code.visualstudio.com/docs/languages/cpp). 
+- Make sure you have a C++ compiler installed, (e.g. [MinGW for Windows](https://www.msys2.org/) or [Clang for MacOS](https://code.visualstudio.com/docs/cpp/config-clang-mac)). If you are on VSCode, check out the [instructions](https://code.visualstudio.com/docs/languages/cpp). 
 - Check if you installed correctly with `g++ --version` in your terminal.
 - Clone this repository to your local machine.
 ```
