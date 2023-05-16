@@ -7,7 +7,6 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                
                 "main.cpp",
                 "car.cpp",
                 "rental.cpp",
