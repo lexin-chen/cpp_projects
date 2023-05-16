@@ -1,6 +1,7 @@
 # C++ Cool Beginners Projects
 
 ## Table of Contents
+- [Getting Started](#getting-started)
 - [Logical Operators](#logical-operators)
   - [Hogwarts Sorting Hat](#hogwarts-sorting-hat)
 - [For loop](#for-loop)
@@ -10,6 +11,14 @@
   - [Charades](#charades)
 - [Classes and Objects](#classes-and-objects)
   - [Car Rental](#car-rental)
+
+## Getting Started 
+- Make sure you have a C++ compiler installed, (e.g. MinGW for Window). If you are on VSCode, check out the [instructions](https://code.visualstudio.com/docs/languages/cpp). 
+- Check if you installed correctly with `g++ --version` in your terminal.
+- Clone this repository to your local machine.
+```
+git clone https://github.com/lexin-chen/cpp_projects.git
+```
 
 ## Logical Operators
 Below are some real-world projects that use logical operators. Logical operators are used to combine two or more conditions. The logical operators are `&&` (and), `||` (or), and `!` (not).
@@ -38,6 +47,10 @@ Key Concepts: Lists, Logical Operators
 11. Print the house at the index of the maximum value.
 
 [Source Code](hogwarts_sorting_hat.cpp)
+```
+g++ hogwarts_sorting_hat.cpp
+./hogwarts_sorting_hat.exe
+```
 
 ## For Loop
 
@@ -49,6 +62,10 @@ A program that prints the numbers from 1 to 100. For multiples of three, print "
 Key Concepts: For Loops, Logical Operators
 
 [Source Code](fizzbuzz.cpp)
+```
+g++ fizzbuzz.cpp
+./fizzbuzz.exe
+```
 
 ## While Loop
 
@@ -72,6 +89,10 @@ Key Concepts: Lists, Random Numbers, While Loops, Logical Operators
 5. Loop back to step 4 or exit the program if the user enters `quit`.
 
 [Source Code](magic8_ball.cpp)
+```
+g++ magic8_ball.cpp
+./magic8_ball.exe
+```
 
 ### Charades
 A program that plays a game of charades. The user is given a word and they have to act it out. The user will input if they guessed the word correctly or not and the program will give them a new word. The game ends when the user enters `quit` or the deck of words runs out.
@@ -100,6 +121,10 @@ Key Concepts: Lists, Random Numbers, While Loops, Logical Operators
 7. Loop back to step 6 or exit the program if the user enters `quit` or the deck of words runs out.
 
 [Source Code](charades.cpp)
+```
+g++ charades.cpp
+./charades.exe
+```
 
 ## Classes and Objects
 Object-oriented programming is a programming paradigm that uses objects and classes. A class is a blueprint for an object. An object is an instance of a class. A class can have attributes and methods. Attributes are variables that belong to a class. Methods are functions that belong to a class. Below are some real-world projects that use classes and objects.
