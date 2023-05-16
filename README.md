@@ -110,6 +110,7 @@ A program that simulates a car rental service. The user can rent a car, return a
 Key Concepts: Classes, Objects, Multiple Files, Constructors.
 
 [Source Code](car_rental)
+
 When you run the program, make sure car_rental is the working directory. 
 ```
 g++ main.cpp car.cpp
