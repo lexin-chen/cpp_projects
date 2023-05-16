@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 class Car {
     int carID;
@@ -38,4 +39,14 @@ class Rental {
     std::string return_date;
     int rental_fee;
     int late_fee;
+    public:
+        Rental(int rentalID, int carID, int customerID, std::string rental_date, std::string return_date, int rental_fee, int late_fee);
+        int getRentalID();
+        int getCarID();
+        int getCustomerID();
+        std::string getRentalDate();
+        std::string getReturnDate();
+        int getRentalFee();
+        int getLateFee();
+        void printRental();
 };

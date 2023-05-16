@@ -8,6 +8,8 @@
 - [While Loop](#while-loop)
   - [Magic 8 Ball](#magic-8-ball)
   - [Charades](#charades)
+- [Classes and Objects](#classes-and-objects)
+  - [Car Rental](#car-rental)
 
 ## Logical Operators
 Below are some real-world projects that use logical operators. Logical operators are used to combine two or more conditions. The logical operators are `&&` (and), `||` (or), and `!` (not).
@@ -99,3 +101,8 @@ Key Concepts: Lists, Random Numbers, While Loops, Logical Operators
 
 [Source Code](charades.cpp)
 
+## Classes and Objects
+Object-oriented programming is a programming paradigm that uses objects and classes. A class is a blueprint for an object. An object is an instance of a class. A class can have attributes and methods. Attributes are variables that belong to a class. Methods are functions that belong to a class. Below are some real-world projects that use classes and objects.
+
+### Car Rental
+A program that simulates a car rental service. The user can rent a car, return a car, and view the available cars.
