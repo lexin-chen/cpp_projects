@@ -107,6 +107,8 @@ Object-oriented programming is a programming paradigm that uses objects and clas
 ### Car Rental
 A program that simulates a car rental service. The user can rent a car, return a car, and view the available cars.
 
+Key Concepts: Classes, Objects, Multiple Files, Constructors.
+
 [Source Code](car_rental)
 When you run the program, make sure car_rental is the working directory. 
 ```
