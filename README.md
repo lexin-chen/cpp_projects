@@ -114,5 +114,5 @@ Key Concepts: Classes, Objects, Multiple Files, Constructors.
 When you run the program, make sure car_rental is the working directory. 
 ```
 g++ main.cpp car.cpp
-./a.exe
+./main.exe
 ```
