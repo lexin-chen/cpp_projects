@@ -151,5 +151,5 @@ When you run the program, make sure `car_rental` is the working directory.
 ```
 cd car_rental
 g++ main.cpp car.cpp
-./main.exe
+./a.exe
 ```
