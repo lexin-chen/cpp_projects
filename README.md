@@ -138,6 +138,8 @@ Key Concepts: Classes, Objects, Multiple Files, Constructors.
 
 When you run the program, make sure `car_rental` is the working directory. 
 ```
+cd car_rental
 g++ main.cpp car.cpp
 ./main.exe
 ```
+Output will give a list of the available cars that can be rented. 
