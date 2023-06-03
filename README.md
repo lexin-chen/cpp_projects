@@ -130,7 +130,18 @@ g++ charades.cpp
 Object-oriented programming is a programming paradigm that uses objects and classes. A class is a blueprint for an object. An object is an instance of a class. A class can have attributes and methods. Attributes are variables that belong to a class. Methods are functions that belong to a class. Below are some real-world projects that use classes and objects.
 
 ### Car Rental
-A program that simulates a car rental service. The user can rent a car, return a car, and view the available cars.
+A program that simulates a car rental service. The user can rent a car.
+
+1. Create three classes: `Car`, `Customer`, and `Rental`.
+2. Create a `Car` class that has the following attributes: `make`, `model`, `color`, `year`, `rental_fee`, and `is_available`.
+3. Create a `Customer` class that has the following attributes: `name`, `address`, `phone_number`, `phone_number`, and `email`.
+4. Create a `Rental` class that has the following attributes: `rental_id`, `carID`, `customerID`, `rental_days`, `rental_fee`, and `late_fee`.
+5. Create a `Car` object for each car in the car rental service.
+6. Create a `Customer` object for each customer in the car rental service.
+7. Create a `Rental` object for each rental in the car rental service.
+8. Create a function that prints the details of a car.
+9. Create a function that prints the details of a customer.
+10. Create a function that prints the details of a rental.
 
 Key Concepts: Classes, Objects, Multiple Files, Constructors.
 
@@ -142,4 +153,3 @@ cd car_rental
 g++ main.cpp car.cpp
 ./main.exe
 ```
-Output will give a list of the available cars that can be rented. 
